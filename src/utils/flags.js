@@ -13,7 +13,7 @@ export const configurationFetchedHandler = fetcherResults => {
   else if (fetcherResults.fetcherStatus === 'ERROR_FETCH_FAILED') {
     console.log('Error occured! Details are: ' + fetcherResults.errorDetails)
   }
-};nserted configurationFetchedHandler
+};
 
 const options = {
   configurationFetchedHandler: configurationFetchedHandler
