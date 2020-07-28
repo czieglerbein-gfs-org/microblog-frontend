@@ -15,6 +15,7 @@ export const configurationFetchedHandler = fetcherResults => {
   }
 };
 
+
 const options = {
   configurationFetchedHandler: configurationFetchedHandler
 };
